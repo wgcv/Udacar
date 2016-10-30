@@ -1,10 +1,14 @@
 package com.pckg.udacar;
 
+import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewCompat;
 import android.support.v4.view.ViewPager;
@@ -30,6 +34,10 @@ public class MainActivity extends AppCompatActivity  {
 
     private TextView hourText;
     private ImageView batteryLevel;
+    private ViewPager viewPager;
+    private MyPageAdapter pageAdapter;
+    private android.app.FragmentManager fm;
+    private FragmentTransaction ft;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,8 +52,12 @@ public class MainActivity extends AppCompatActivity  {
         hourText = (TextView) findViewById(R.id.hourText);
         batteryLevel = (ImageView) findViewById(R.id.batteryImage);
         new MyTimerTask(hourText, this, batteryLevel);
-        final ViewPager viewPager = (ViewPager) findViewById(R.id.vp_vertical_ntb);
-        viewPager.setAdapter(new PagerAdapter() {
+        viewPager = (ViewPager) findViewById(R.id.vp_vertical_ntb);
+        fm = getFragmentManager();
+        ft = fm.beginTransaction();
+        pageAdapter = new MyPageAdapter(getSupportFragmentManager());
+        viewPager.setAdapter(pageAdapter);
+        /*viewPager.setAdapter(new PagerAdapter() {
             @Override
             public int getCount() {
                 return 7;
@@ -69,7 +81,7 @@ public class MainActivity extends AppCompatActivity  {
                 container.addView(view);
                 return view;
             }
-        });
+        });*/
 
         final String[] colors = getResources().getStringArray(R.array.vertical_ntb);
 
@@ -126,7 +138,41 @@ public class MainActivity extends AppCompatActivity  {
         );
 
         navigationTabBar.setModels(models);
-        navigationTabBar.setViewPager(viewPager, 4);
+        navigationTabBar.setViewPager(viewPager, 3);
         navigationTabBar.setBgColor(getResources().getColor(R.color.navBarDay));
+    }
+
+    private class MyPageAdapter extends FragmentPagerAdapter {
+        public MyPageAdapter(FragmentManager fm) {
+            super(fm);
+        }
+
+        @Override
+        public int getCount() {
+            return 5;
+        }
+
+        @Override
+        public Fragment getItem(int position) {
+            switch(position) {
+                case 0: return new BasicFunctionsFragment();
+                //case 1: return SecondFragment.newInstance("asdasd");
+                default : return BasicFunctionsFragment.newInstance("", "");
+            }
+        }
+
+        @Override
+        public void destroyItem(final View container, final int position, final Object object) {
+            ((ViewPager) container).removeView((View) object);
+        }
+
+        @Override
+        public Object instantiateItem(final ViewGroup container, final int position) {
+            final View view = LayoutInflater.from(
+                    getBaseContext()).inflate(R.layout.item_vp, null, false);
+
+            container.addView(view);
+            return view;
+        }
     }
 }

@@ -21,7 +21,7 @@ import static android.content.Context.BATTERY_SERVICE;
  */
 
 public class MyTimerTask {
-    private int delay = 1000;
+    private int delay = 1;
     private int period = 60000;
 
     public MyTimerTask(final TextView textView, final Context context, final ImageView imageView){

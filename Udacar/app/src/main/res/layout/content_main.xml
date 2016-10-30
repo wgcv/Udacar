@@ -1,9 +1,79 @@
-<fragment android:id="@+id/fragment"
-          android:name="com.pckg.udacar.MainActivityFragment"
-          xmlns:android="http://schemas.android.com/apk/res/android"
-          xmlns:app="http://schemas.android.com/apk/res-auto"
-          xmlns:tools="http://schemas.android.com/tools"
-          android:layout_width="match_parent"
-          android:layout_height="match_parent"
-          app:layout_behavior="@string/appbar_scrolling_view_behavior"
-          tools:layout="@layout/fragment_main"/>
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:name="com.pckg.udacar.MainActivityFragment"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/content_main"
+    android:orientation="horizontal"
+    tools:context="com.pckg.udacar.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:background="@color/white"
+    android:elevation="1dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/navBarDay"
+        android:layout_width="85dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:srcCompat="@drawable/udacity"
+            android:id="@+id/udacityImage"
+            android:layout_weight="1"
+            tools:ignore="ContentDescription"/>
+
+        <com.gigamole.navigationtabbar.ntb.NavigationTabBar
+            android:id="@+id/ntb_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:ntb_preview_colors="@array/vertical_ntb"
+            android:layout_weight="11"
+            android:background="@color/navBarDay"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/batteryImage"
+            android:layout_weight="0.5"
+            android:paddingBottom="5dp"
+            tools:ignore="ContentDescription"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:srcCompat="@drawable/error_network"
+            android:id="@+id/networkImage"
+            android:layout_weight="0.5"
+            android:paddingTop="5dp"
+            tools:ignore="ContentDescription"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:srcCompat="@drawable/line"
+            android:id="@+id/imageView4"
+            android:layout_weight="0.25"
+            tools:ignore="ContentDescription"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/hourText"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_vertical_ntb"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+</LinearLayout>
