@@ -1,43 +1,30 @@
 package com.pckg.udacar;
 
-import android.app.FragmentTransaction;
-import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
+import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.view.PagerAdapter;
-import android.support.v4.view.ViewCompat;
 import android.support.v4.view.ViewPager;
-import android.support.v4.view.ViewPropertyAnimatorListener;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-import com.gigamole.navigationtabbar.ntb.*;
-
 import java.util.ArrayList;
-import java.util.Timer;
+import java.util.List;
 
-public class MainActivity extends AppCompatActivity  {
+public class MainActivity extends AppCompatActivity {
 
     private TextView hourText;
     private ImageView batteryLevel;
     private ViewPager viewPager;
-    private MyPageAdapter pageAdapter;
-    private android.app.FragmentManager fm;
-    private FragmentTransaction ft;
+    private SectionsPagerAdapter mSectionsPagerAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,40 +39,13 @@ public class MainActivity extends AppCompatActivity  {
         hourText = (TextView) findViewById(R.id.hourText);
         batteryLevel = (ImageView) findViewById(R.id.batteryImage);
         new MyTimerTask(hourText, this, batteryLevel);
+        mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
         viewPager = (ViewPager) findViewById(R.id.vp_vertical_ntb);
-        fm = getFragmentManager();
-        ft = fm.beginTransaction();
-        pageAdapter = new MyPageAdapter(getSupportFragmentManager());
-        viewPager.setAdapter(pageAdapter);
-        /*viewPager.setAdapter(new PagerAdapter() {
-            @Override
-            public int getCount() {
-                return 7;
-            }
-
-            @Override
-            public boolean isViewFromObject(final View view, final Object object) {
-                return view.equals(object);
-            }
-
-            @Override
-            public void destroyItem(final View container, final int position, final Object object) {
-                ((ViewPager) container).removeView((View) object);
-            }
-
-            @Override
-            public Object instantiateItem(final ViewGroup container, final int position) {
-                final View view = LayoutInflater.from(
-                        getBaseContext()).inflate(R.layout.item_vp, null, false);
-
-                container.addView(view);
-                return view;
-            }
-        });*/
-
+        viewPager.setAdapter(mSectionsPagerAdapter);
+        setupViewPager(viewPager);
         final String[] colors = getResources().getStringArray(R.array.vertical_ntb);
-
-        final com.gigamole.navigationtabbar.ntb.NavigationTabBar navigationTabBar = (com.gigamole.navigationtabbar.ntb.NavigationTabBar) findViewById(R.id.ntb_vertical);
+        final com.gigamole.navigationtabbar.ntb.NavigationTabBar navigationTabBar =
+                (com.gigamole.navigationtabbar.ntb.NavigationTabBar) findViewById(R.id.ntb_vertical);
         final ArrayList<com.gigamole.navigationtabbar.ntb.NavigationTabBar.Model> models = new ArrayList<>();
         models.add(
                 new com.gigamole.navigationtabbar.ntb.NavigationTabBar.Model.Builder(
@@ -142,37 +102,88 @@ public class MainActivity extends AppCompatActivity  {
         navigationTabBar.setBgColor(getResources().getColor(R.color.navBarDay));
     }
 
-    private class MyPageAdapter extends FragmentPagerAdapter {
-        public MyPageAdapter(FragmentManager fm) {
-            super(fm);
-        }
+    private void setupViewPager(ViewPager viewPager) {
+        ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
+        adapter.addFragment(new BasicFunctionsFragment(), "Basic");
+        adapter.addFragment(new RouteFragment(), "Route");
+        viewPager.setAdapter(adapter);
+    }
 
-        @Override
-        public int getCount() {
-            return 5;
+    class ViewPagerAdapter extends FragmentPagerAdapter {
+        private final List<Fragment> mFragmentList = new ArrayList<>();
+        private final List<String> mFragmentTitleList = new ArrayList<>();
+
+        public ViewPagerAdapter(FragmentManager manager) {
+            super(manager);
         }
 
         @Override
         public Fragment getItem(int position) {
-            switch(position) {
-                case 0: return new BasicFunctionsFragment();
-                //case 1: return SecondFragment.newInstance("asdasd");
-                default : return BasicFunctionsFragment.newInstance("", "");
+            return mFragmentList.get(position);
+        }
+
+        @Override
+        public int getCount() {
+            return mFragmentList.size();
+        }
+
+        public void addFragment(Fragment fragment, String title) {
+            mFragmentList.add(fragment);
+            mFragmentTitleList.add(title);
+        }
+
+        @Override
+        public CharSequence getPageTitle(int position) {
+            return mFragmentTitleList.get(position);
+        }
+    }
+
+    public static class PlaceholderFragment extends Fragment {
+        private static final String ARG_SECTION_NUMBER = "section_number";
+
+        public PlaceholderFragment() {
+        }
+
+        public static PlaceholderFragment newInstance(int sectionNumber) {
+            PlaceholderFragment fragment = new PlaceholderFragment();
+            Bundle args = new Bundle();
+            args.putInt(ARG_SECTION_NUMBER, sectionNumber);
+            fragment.setArguments(args);
+            return fragment;
+        }
+
+        @Override
+        public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+            View rootView = inflater.inflate(R.layout.fragment_main, container, false);
+            return rootView;
+        }
+    }
+
+
+    public class SectionsPagerAdapter extends FragmentPagerAdapter {
+        public SectionsPagerAdapter(FragmentManager fm) {
+            super(fm);
+        }
+
+        @Override
+        public Fragment getItem(int position) {
+            return PlaceholderFragment.newInstance(position + 1);
+        }
+
+        @Override
+        public int getCount() {
+            return 7;
+        }
+
+        @Override
+        public CharSequence getPageTitle(int position) {
+            switch (position) {
+                case 0:
+                    return "SECTION 1";
+                case 1:
+                    return "SECTION 2";
             }
-        }
-
-        @Override
-        public void destroyItem(final View container, final int position, final Object object) {
-            ((ViewPager) container).removeView((View) object);
-        }
-
-        @Override
-        public Object instantiateItem(final ViewGroup container, final int position) {
-            final View view = LayoutInflater.from(
-                    getBaseContext()).inflate(R.layout.item_vp, null, false);
-
-            container.addView(view);
-            return view;
+            return null;
         }
     }
 }
