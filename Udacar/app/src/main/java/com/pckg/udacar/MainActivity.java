@@ -2,20 +2,18 @@ package com.pckg.udacar;
 
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
+import android.app.Fragment;
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.gigamole.navigationtabbar.ntb.NavigationTabBar;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView hourText;
     private ImageView batteryLevel;
     private ViewPager viewPager;
-    private SectionsPagerAdapter mSectionsPagerAdapter;
+   // private SectionsPagerAdapter mSectionsPagerAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,16 +31,20 @@ public class MainActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
         initUI();
+        FragmentManager fm = getFragmentManager();
+        FragmentTransaction ft = fm.beginTransaction();
+        ft.replace(R.id.fragmentDetalle, new RouteFragment()).addToBackStack("");
+        ft.commit();
     }
 
     private void initUI() {
         hourText = (TextView) findViewById(R.id.hourText);
         batteryLevel = (ImageView) findViewById(R.id.batteryImage);
         new MyTimerTask(hourText, this, batteryLevel);
-        mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
-        viewPager = (ViewPager) findViewById(R.id.vp_vertical_ntb);
-        viewPager.setAdapter(mSectionsPagerAdapter);
-        setupViewPager(viewPager);
+        //mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
+        //viewPager = (ViewPager) findViewById(R.id.vp_vertical_ntb);
+        //viewPager.setAdapter(mSectionsPagerAdapter);
+        //setupViewPager(viewPager);
         final String[] colors = getResources().getStringArray(R.array.vertical_ntb);
         final com.gigamole.navigationtabbar.ntb.NavigationTabBar navigationTabBar =
                 (com.gigamole.navigationtabbar.ntb.NavigationTabBar) findViewById(R.id.ntb_vertical);
@@ -100,8 +102,27 @@ public class MainActivity extends AppCompatActivity {
         navigationTabBar.setModels(models);
         navigationTabBar.setViewPager(viewPager, 3);
         navigationTabBar.setBgColor(getResources().getColor(R.color.navBarDay));
+        navigationTabBar.setOnTabBarSelectedIndexListener(new NavigationTabBar.OnTabBarSelectedIndexListener() {
+            @Override
+            public void onStartTabSelected(NavigationTabBar.Model model, int index) {
+                cambiarFragment(new BasicFunctionsFragment());
+            }
+
+            @Override
+            public void onEndTabSelected(NavigationTabBar.Model model, int index) {
+
+            }
+        });
     }
 
+    public void cambiarFragment(Fragment fragment){
+        FragmentManager fm = getFragmentManager();
+        FragmentTransaction ft = fm.beginTransaction();
+        ft.replace(R.id.fragmentDetalle, fragment).addToBackStack("");
+        ft.commit();
+    }
+
+    /*
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(new BasicFunctionsFragment(), "Basic");
@@ -186,4 +207,6 @@ public class MainActivity extends AppCompatActivity {
             return null;
         }
     }
+
+    * */
 }
