@@ -1,0 +1,1 @@
+bool sos #True for Send Out Succour

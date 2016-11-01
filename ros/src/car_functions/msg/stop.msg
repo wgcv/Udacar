@@ -1,0 +1,1 @@
+bool stop #You sent true if you want to stop
