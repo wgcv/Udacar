@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.udacity.ucar.MainActivity">
+
+    <LinearLayout
+        android:layout_width="@dimen/udacity_logo_width"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/side_bar_top_margin"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center">
+
+        <ListView
+            android:id="@+id/lv_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/menu_list_margin"
+            android:layout_marginTop="@dimen/menu_list_margin"
+            android:divider="@null" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_udacity_logo"
+        android:layout_width="@dimen/udacity_logo_width"
+        android:layout_height="@dimen/udacity_logo_height"
+        android:scaleType="centerCrop"
+        android:src="@drawable/udacity_logo" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/udacity_logo_width"
+        android:orientation="vertical">
+
+    </LinearLayout>
+</RelativeLayout>

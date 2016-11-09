@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">uCar</string>
+
+    <string name="mapbox_token">pk.eyJ1IjoiaWFta2hhbiIsImEiOiJjaXVncWdraHIwMHAyMnRtenlieTlsNGdrIn0.dgp2PUP5iJ-tGY-SOCvfag</string>
+</resources>
