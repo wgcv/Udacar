@@ -48,7 +48,7 @@ public class MenuAdapter extends BaseAdapter {
             mHolder = (MyViewHolder) convertView.getTag();
         }
         mHolder.mTvMenuName.setText(mItems.get(position));
-        Helper.setImage(parent.getContext(), mHolder.mIvMenu, position, true);
+        Helper.setImage(parent.getContext(), mHolder.mIvMenu, position, false);
 
         return convertView;
     }

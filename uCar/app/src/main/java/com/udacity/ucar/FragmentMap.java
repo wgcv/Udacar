@@ -61,8 +61,7 @@ public class FragmentMap extends Fragment {
     private LocationServices locationServices;
     private Location mCurrentLocation;
     private Position originPosition, destinationPosition;
-    private Icon mCarIcon;
-    private Marker mCarMarker;
+
 
     public FragmentMap() {
     }
@@ -109,8 +108,9 @@ public class FragmentMap extends Fragment {
 
                     // Customize the user location icon using the getMyLocationViewSettings object.
                     //mMap.getMyLocationViewSettings().setPadding(0, 500, 0, 0);
-                    mMap.getMyLocationViewSettings().setForegroundTintColor(Color.parseColor("#56B881"));
-                    mMap.getMyLocationViewSettings().setAccuracyTintColor(Color.parseColor("#FBB03B"));
+                   // mMap.getMyLocationViewSettings().setForegroundTintColor(Color.parseColor("#56B881"));
+                    mMap.getMyLocationViewSettings().setAccuracyTintColor(Color.parseColor("#02B3E4"));
+                    mMap.getMyLocationViewSettings().setBackgroundDrawable(ContextCompat.getDrawable(getActivity(), R.drawable.car_marker_icon), new int[]{0,0,0,0});
 
                 }
             }
@@ -126,9 +126,7 @@ public class FragmentMap extends Fragment {
             }
         });
 
-        IconFactory iconFactory = IconFactory.getInstance(getActivity());
-        Drawable iconDrawable = ContextCompat.getDrawable(getActivity(), R.drawable.car_marker);
-        mCarIcon = iconFactory.fromDrawable(iconDrawable);
+
         return view;
     }
 
@@ -230,14 +228,6 @@ public class FragmentMap extends Fragment {
                     mCurrentLocation = location;
                     originPosition = Position.fromCoordinates(location.getLongitude(), location.getLatitude());
 
-                    if(mCarMarker != null){
-                        mMap.removeMarker(mCarMarker);
-                    }
-
-                    mCarMarker = mMap.addMarker(new MarkerOptions()
-                                .position(new LatLng(mCurrentLocation.getLatitude(), mCurrentLocation.getLongitude()))
-                                .snippet("Current Location")
-                                .icon(mCarIcon));
 
                     if (destinationPosition != null) {
                         mapBoundZoom(new Position[]{originPosition, destinationPosition});
@@ -254,7 +244,7 @@ public class FragmentMap extends Fragment {
             }
         });
 
-        mMap.setMyLocationEnabled(true);
+        mMap.setMyLocationEnabled(false);
     }
 
     private Location getCurrentLocation() {

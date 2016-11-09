@@ -10,8 +10,8 @@ import android.widget.ImageView;
 
 public class Helper {
 
-    public static void setImage(Context context, ImageView iv, int position, boolean selectedImg){
-        if(selectedImg){ //change selected images
+    public static void setImage(Context context, ImageView iv, int position, boolean isSelectedImg){
+        if(isSelectedImg){ //change selected images
             if(position ==0){//map
                 iv.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.route_icon_selected));
             }else if(position ==1){//settings
