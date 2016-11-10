@@ -17,7 +17,7 @@ public class Helper {
             }else if(position ==1){//settings
                 iv.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.adjustment_icon_selected));
             }else if(position == 2){//music
-                iv.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.music_icon_selected));
+                iv.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.function_icon_selected));
             }else{//comfort
                 iv.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.luxury_icon_selected));
             }
@@ -27,7 +27,7 @@ public class Helper {
             }else if(position ==1){//settings
                 iv.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.adjustment_icon));
             }else if(position == 2){//music
-                iv.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.music_icon));
+                iv.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.function_icon));
             }else{//comfort
                 iv.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.luxury_icon));
             }

@@ -55,16 +55,44 @@ public class MainActivity extends AppCompatActivity {
                 mSelectedMenuImgPos = position;
                 Helper.setImage(parent.getContext(), iv, position, true);
 
+                changeFragment(position);
             }
         });
 
+    }
+
+    private void changeFragment(int position){
+        mFragmentManager = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = mFragmentManager.beginTransaction();
+        switch(position){
+            case 0:
+                Fragment fragMap = FragmentMap.newInstance();
+                fragmentTransaction.replace(R.id.ll_content, fragMap);
+                fragmentTransaction.commit();
+                break;
+            case 1:
+                Fragment fragSettings = FragmentSettings.newInstance();
+                fragmentTransaction.replace(R.id.ll_content, fragSettings);
+                fragmentTransaction.commit();
+                break;
+            case 2:
+                Fragment fragFunction = FragmentFunction.newInstance();
+                fragmentTransaction.replace(R.id.ll_content, fragFunction);
+                fragmentTransaction.commit();
+                break;
+            case 3:
+                Fragment fragComfort = FragmentComfort.newInstance();
+                fragmentTransaction.replace(R.id.ll_content, fragComfort);
+                fragmentTransaction.commit();
+                break;
+        }
     }
 
     private List<String> getMenuItems(){
         List<String> items = new ArrayList<>();
         items.add("Map");
         items.add("Settings");
-        items.add("Music");
+        items.add("Basic Functions");
         items.add("Comfort");
 
         return items;

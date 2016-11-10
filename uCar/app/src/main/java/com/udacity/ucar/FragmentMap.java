@@ -239,7 +239,7 @@ public class FragmentMap extends Fragment {
 
                     }
 
-                    //locationServices.removeLocationListener(this);
+                    locationServices.removeLocationListener(this);
                 }
             }
         });

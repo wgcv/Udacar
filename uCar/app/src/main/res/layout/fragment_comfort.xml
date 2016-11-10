@@ -1,0 +1,234 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.udacity.ucar.FragmentComfort">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/comfort_img" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="600dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/border"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="23 C"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/my_gray"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="150dp"
+                android:layout_height="5dp"
+                android:layout_marginBottom="25dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_ac_cold"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="25dp"
+                    android:src="@drawable/ac_cold" />
+
+                <ImageView
+                    android:id="@+id/iv_btn_down"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="50dp"
+                    android:src="@drawable/button_down" />
+
+                <ImageView
+                    android:id="@+id/iv_btn_up"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="25dp"
+                    android:src="@drawable/button_up" />
+
+                <ImageView
+                    android:id="@+id/iv_ac_warm"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ac_warm" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="600dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_room_lights"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Room Lights"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/my_gray"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="150dp"
+                android:layout_height="5dp"
+                android:layout_marginBottom="25dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_light_1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="25dp"
+                    android:src="@drawable/light_1_off" />
+
+                <ImageView
+                    android:id="@+id/iv_light_2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="50dp"
+                    android:src="@drawable/light_2_off" />
+
+                <ImageView
+                    android:id="@+id/iv_light_3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="25dp"
+                    android:src="@drawable/light_3_off" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="600dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_seat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Seats"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/my_gray"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="150dp"
+                android:layout_height="5dp"
+                android:layout_marginBottom="25dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_seat_pilot"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="25dp"
+                    android:src="@drawable/seat_pilot" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/iv_btn_left_pilot"
+                        android:layout_width="50dp"
+                        android:layout_height="45dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="50dp"
+                        android:src="@drawable/button_left" />
+
+                    <ImageView
+                        android:id="@+id/iv_btn_right_pilot"
+                        android:layout_width="50dp"
+                        android:layout_height="45dp"
+                        android:layout_marginRight="25dp"
+                        android:rotation="180"
+                        android:src="@drawable/button_right" />
+                </LinearLayout>
+
+
+                <ImageView
+                    android:id="@+id/iv_seat_copilot"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="25dp"
+                    android:src="@drawable/seat_copilot" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/iv_btn_left_copilot"
+                        android:layout_width="50dp"
+                        android:layout_height="45dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="50dp"
+                        android:src="@drawable/button_left" />
+
+                    <ImageView
+                        android:id="@+id/iv_btn_right_copilot"
+                        android:layout_width="50dp"
+                        android:layout_height="45dp"
+                        android:layout_marginRight="25dp"
+                        android:rotation="180"
+                        android:src="@drawable/button_right" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

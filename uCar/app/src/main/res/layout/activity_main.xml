@@ -27,8 +27,8 @@
         android:id="@+id/iv_udacity_logo"
         android:layout_width="@dimen/udacity_logo_width"
         android:layout_height="@dimen/udacity_logo_height"
-        android:scaleType="centerCrop"
-        android:src="@drawable/udacity_logo" />
+        android:scaleType="fitXY"
+        android:src="@drawable/udacity_logo_icon" />
 
 
     <LinearLayout
