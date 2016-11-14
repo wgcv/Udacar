@@ -21,7 +21,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-
+    private ResponseReceiver receiver;
+    private ResponseSender sender;
     ListView mLvMenu;
 
     List<String> mMenuItems;
