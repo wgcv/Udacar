@@ -1,10 +1,10 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical"
-    tools:context="com.udacity.ucar.FragmentComfort">
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:context="com.udacity.ucar.FragmentComfort">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -15,8 +15,8 @@
             android:layout_height="wrap_content"
             android:src="@drawable/comfort"
             android:id="@+id/imageComfort"
-            android:layout_marginLeft="@dimen/activity_vertical_margin"
-            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/side_bar_top_margin"
+            android:layout_marginRight="@dimen/side_bar_top_margin"
             android:layout_marginTop="@dimen/margin_10dp"/>
 
         <LinearLayout
@@ -28,14 +28,14 @@
             android:layout_marginTop="@dimen/activity_vertical_margin">
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_marginBottom="@dimen/margin_10dp"
+                android:layout_marginBottom="@dimen/menu_list_margin"
                 android:background="@drawable/borderline"
                 android:gravity="center"
                 android:orientation="vertical"
-                android:layout_marginRight="@dimen/activity_vertical_margin"
-                android:layout_marginLeft="@dimen/activity_vertical_margin"
-                android:layout_height="@dimen/dimen_rectangle">
+                android:layout_marginRight="@dimen/side_bar_top_margin"
+                android:layout_marginLeft="@dimen/side_bar_top_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="550dp">
 
                 <TextView
                     android:id="@+id/tv_temp"
@@ -45,7 +45,7 @@
                     android:text="23 C"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:textColor="@color/my_gray"
-                    android:textSize="40sp"
+                    android:textSize="70sp"
                     android:textStyle="bold"/>
 
                 <View
@@ -65,40 +65,45 @@
                         android:layout_height="match_parent"
                         android:src="@drawable/shape"
                         android:layout_weight="1"
-                        android:layout_width="0dp"/>
+                        android:layout_width="0dp"
+                        android:layout_marginLeft="@dimen/menu_list_margin"/>
 
                     <ImageView
                         android:id="@+id/iv_btn_down"
                         android:layout_height="match_parent"
                         android:src="@drawable/downbutton"
                         android:layout_weight="1"
-                        android:layout_width="0dp"/>
+                        android:layout_width="0dp"
+                        android:layout_marginLeft="@dimen/menu_list_margin"/>
 
                     <ImageView
                         android:id="@+id/iv_btn_up"
                         android:layout_height="match_parent"
                         android:src="@drawable/upbutton"
                         android:layout_weight="1"
-                        android:layout_width="0dp"/>
+                        android:layout_width="0dp"
+                        android:layout_marginRight="@dimen/menu_list_margin"
+                        android:layout_marginLeft="@dimen/activity_vertical_margin"/>
 
                     <ImageView
                         android:id="@+id/iv_ac_warm"
                         android:layout_height="match_parent"
                         android:src="@drawable/group"
                         android:layout_weight="1"
-                        android:layout_width="0dp"/>
+                        android:layout_width="0dp"
+                        android:layout_marginRight="@dimen/menu_list_margin"/>
                 </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_marginBottom="@dimen/margin_10dp"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="@dimen/menu_list_margin"
                 android:background="@drawable/borderline"
                 android:gravity="center"
                 android:orientation="vertical"
-                android:layout_marginRight="@dimen/activity_vertical_margin"
-                android:layout_marginLeft="@dimen/activity_vertical_margin"
-                android:layout_height="@dimen/dimen_rectangle">
+                android:layout_marginRight="@dimen/side_bar_top_margin"
+                android:layout_marginLeft="@dimen/side_bar_top_margin"
+                android:layout_height="550dp">
 
                 <TextView
                     android:id="@+id/tv_room_lights"
@@ -108,7 +113,7 @@
                     android:text="Room Lights"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:textColor="@color/my_gray"
-                    android:textSize="40sp"
+                    android:textSize="70sp"
                     android:textStyle="bold"/>
 
                 <View
@@ -149,14 +154,14 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:background="@drawable/borderline"
                 android:gravity="center"
                 android:orientation="vertical"
-                android:layout_marginRight="@dimen/activity_vertical_margin"
-                android:layout_marginLeft="@dimen/activity_vertical_margin"
-                android:layout_marginBottom="@dimen/margin_10dp"
-                android:layout_height="@dimen/dimen_rectangle">
+                android:layout_marginRight="@dimen/side_bar_top_margin"
+                android:layout_marginLeft="@dimen/side_bar_top_margin"
+                android:layout_marginBottom="@dimen/menu_list_margin"
+                android:layout_height="550dp">
 
                 <TextView
                     android:id="@+id/tv_seat"
@@ -166,7 +171,7 @@
                     android:text="Seats"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:textColor="@color/my_gray"
-                    android:textSize="40sp"
+                    android:textSize="70sp"
                     android:textStyle="bold"/>
 
                 <View
@@ -189,7 +194,8 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:src="@drawable/seat_pilot"
-                        android:layout_weight="1"/>
+                        android:layout_weight="1"
+                        android:layout_marginRight="@dimen/margin_10dp"/>
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -199,18 +205,19 @@
 
                         <ImageView
                             android:id="@+id/iv_btn_left_pilot"
-                            android:layout_width="match_parent"
                             android:src="@drawable/left_button"
-                            android:layout_height="0dp"
-                            android:layout_weight="1"/>
+                            android:elevation="1dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"/>
 
                         <ImageView
                             android:id="@+id/iv_btn_right_pilot"
-                            android:layout_width="match_parent"
                             android:rotation="180"
                             android:src="@drawable/right_button"
-                            android:layout_height="0dp"
-                            android:layout_weight="1"/>
+                            android:elevation="1dp"
+                            android:layout_marginTop="@dimen/search_bar_margin"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"/>
                     </LinearLayout>
 
 
@@ -219,7 +226,8 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:src="@drawable/seat_copilot"
-                        android:layout_weight="1"/>
+                        android:layout_weight="1"
+                        android:layout_marginRight="@dimen/margin_10dp"/>
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -229,18 +237,19 @@
 
                         <ImageView
                             android:id="@+id/iv_btn_left_copilot"
-                            android:layout_width="match_parent"
                             android:src="@drawable/left_button"
-                            android:layout_height="0dp"
-                            android:layout_weight="1"/>
+                            android:elevation="1dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"/>
 
                         <ImageView
                             android:id="@+id/iv_btn_right_copilot"
-                            android:layout_width="match_parent"
                             android:rotation="180"
                             android:src="@drawable/right_button"
-                            android:layout_height="0dp"
-                            android:layout_weight="1"/>
+                            android:elevation="1dp"
+                            android:layout_marginTop="@dimen/search_bar_margin"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"/>
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
