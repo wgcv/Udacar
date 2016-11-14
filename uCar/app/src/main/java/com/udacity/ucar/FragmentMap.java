@@ -110,7 +110,9 @@ public class FragmentMap extends Fragment {
                     //mMap.getMyLocationViewSettings().setPadding(0, 500, 0, 0);
                    // mMap.getMyLocationViewSettings().setForegroundTintColor(Color.parseColor("#56B881"));
                     mMap.getMyLocationViewSettings().setAccuracyTintColor(Color.parseColor("#02B3E4"));
-                    mMap.getMyLocationViewSettings().setBackgroundDrawable(ContextCompat.getDrawable(getActivity(), R.drawable.car_marker_icon), new int[]{0,0,0,0});
+                    mMap.getMyLocationViewSettings().setBackgroundDrawable(
+                            ContextCompat.getDrawable(getActivity(),
+                                    R.drawable.car_little), new int[]{0,0,0,0});
 
                 }
             }

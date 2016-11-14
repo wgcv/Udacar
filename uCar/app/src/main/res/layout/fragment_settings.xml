@@ -1,5 +1,6 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -8,7 +9,8 @@
         android:layout_height="match_parent"
         android:gravity="center_horizontal"
         android:orientation="vertical"
-        tools:context="com.udacity.ucar.FragmentSettings">
+        tools:context="com.udacity.ucar.FragmentSettings"
+        tools:ignore="ScrollViewSize">
 
         <TextView
             android:layout_width="wrap_content"
@@ -82,7 +84,7 @@
                     android:id="@+id/iv_pump_door"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/pump" />
+                    android:src="@drawable/group_4" />
 
             </LinearLayout>
         </LinearLayout>
@@ -122,13 +124,13 @@
                     android:id="@+id/iv_fl_window_up"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/fl_window_up" />
+                    android:src="@drawable/window_down_left_up"/>
 
                 <ImageView
                     android:id="@+id/iv_fl_window_down"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/fl_window_down" />
+                    android:src="@drawable/window_down_left_down"/>
             </LinearLayout>
 
             <LinearLayout
@@ -149,13 +151,13 @@
                     android:id="@+id/iv_fr_window_up"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/fr_window_up" />
+                    android:src="@drawable/window_down_right_up"/>
 
                 <ImageView
                     android:id="@+id/iv_fr_window_down"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/fr_window_down" />
+                    android:src="@drawable/window_down_right_down"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -178,19 +180,20 @@
                     android:text="Back Left"
                     android:textColor="@color/my_gray"
                     android:textSize="24sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText"/>
 
                 <ImageView
                     android:id="@+id/iv_bl_window_up"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/fl_window_up" />
+                    android:src="@drawable/window_down_left_up"/>
 
                 <ImageView
                     android:id="@+id/iv_bl_window_down"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/bl_window_down" />
+                    android:src="@drawable/window_down_left_down"/>
             </LinearLayout>
 
             <LinearLayout
@@ -211,13 +214,14 @@
                     android:id="@+id/iv_br_window_up"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/br_window_up" />
+                    android:src="@drawable/window_down_right_up"/>
 
                 <ImageView
                     android:id="@+id/iv_br_window_down"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/br_window_down" />
+                    android:src="@drawable/window_down_left_down"
+                    tools:ignore="ContentDescription"/>
             </LinearLayout>
         </LinearLayout>
 

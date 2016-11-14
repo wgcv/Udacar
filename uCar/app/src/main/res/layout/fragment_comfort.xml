@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_marginBottom="10dp"
-        android:src="@drawable/comfort_img" />
+        android:src="@drawable/comfort" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,7 +24,7 @@
             android:layout_width="600dp"
             android:layout_height="0dp"
             android:layout_marginBottom="10dp"
-            android:background="@drawable/border"
+            android:background="@drawable/borderline"
             android:layout_weight="1"
             android:gravity="center"
             android:orientation="vertical">
@@ -57,27 +57,27 @@
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_marginRight="25dp"
-                    android:src="@drawable/ac_cold" />
+                    android:src="@drawable/shape" />
 
                 <ImageView
                     android:id="@+id/iv_btn_down"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_marginRight="50dp"
-                    android:src="@drawable/button_down" />
+                    android:src="@drawable/downbutton" />
 
                 <ImageView
                     android:id="@+id/iv_btn_up"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_marginRight="25dp"
-                    android:src="@drawable/button_up" />
+                    android:src="@drawable/upbutton" />
 
                 <ImageView
                     android:id="@+id/iv_ac_warm"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/ac_warm" />
+                    android:src="@drawable/group" />
             </LinearLayout>
         </LinearLayout>
 
@@ -86,7 +86,7 @@
             android:layout_height="0dp"
             android:layout_marginBottom="10dp"
             android:layout_weight="1"
-            android:background="@drawable/border"
+            android:background="@drawable/borderline"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -118,21 +118,21 @@
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_marginRight="25dp"
-                    android:src="@drawable/light_1_off" />
+                    android:src="@drawable/lights_1" />
 
                 <ImageView
                     android:id="@+id/iv_light_2"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_marginRight="50dp"
-                    android:src="@drawable/light_2_off" />
+                    android:src="@drawable/lights_2" />
 
                 <ImageView
                     android:id="@+id/iv_light_3"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_marginRight="25dp"
-                    android:src="@drawable/light_3_off" />
+                    android:src="@drawable/lights_3" />
 
 
             </LinearLayout>
@@ -142,7 +142,7 @@
             android:layout_width="600dp"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:background="@drawable/border"
+            android:background="@drawable/borderline"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -187,7 +187,7 @@
                         android:layout_height="45dp"
                         android:layout_marginBottom="10dp"
                         android:layout_marginRight="50dp"
-                        android:src="@drawable/button_left" />
+                        android:src="@drawable/left_button" />
 
                     <ImageView
                         android:id="@+id/iv_btn_right_pilot"
@@ -195,7 +195,7 @@
                         android:layout_height="45dp"
                         android:layout_marginRight="25dp"
                         android:rotation="180"
-                        android:src="@drawable/button_right" />
+                        android:src="@drawable/right_button" />
                 </LinearLayout>
 
 
@@ -217,7 +217,7 @@
                         android:layout_height="45dp"
                         android:layout_marginBottom="10dp"
                         android:layout_marginRight="50dp"
-                        android:src="@drawable/button_left" />
+                        android:src="@drawable/left_button" />
 
                     <ImageView
                         android:id="@+id/iv_btn_right_copilot"
@@ -225,7 +225,7 @@
                         android:layout_height="45dp"
                         android:layout_marginRight="25dp"
                         android:rotation="180"
-                        android:src="@drawable/button_right" />
+                        android:src="@drawable/right_button" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>

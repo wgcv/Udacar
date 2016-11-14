@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
     FragmentManager mFragmentManager;
     ImageView mSelctedMenuImg;
     int mSelectedMenuImgPos;
+    private ResponseReceiver receiver;
+    private ResponseSender sender;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 ImageView iv = (ImageView) view.findViewById(R.id.iv_menu);
-                if(mSelctedMenuImg != null){
+                if (mSelctedMenuImg != null) {
                     Helper.setImage(parent.getContext(), mSelctedMenuImg, mSelectedMenuImgPos, false);
                 }
                 mSelctedMenuImg = iv;
@@ -84,10 +86,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private void changeFragment(int position){
+    private void changeFragment(int position) {
         mFragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = mFragmentManager.beginTransaction();
-        switch(position){
+        switch (position) {
             case 0:
                 Fragment fragMap = FragmentMap.newInstance();
                 fragmentTransaction.replace(R.id.ll_content, fragMap);
@@ -111,7 +113,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    private List<String> getMenuItems(){
+    private List<String> getMenuItems() {
         List<String> items = new ArrayList<>();
         items.add("Map");
         items.add("Settings");
@@ -125,15 +127,17 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onReceive(Context context, Intent intent) {
             String text = intent.getStringExtra(SocketService.PARAM_OUT_MSG);
-            Toast toast = Toast.makeText(getApplicationContext(),text,Toast.LENGTH_SHORT);
+            Toast toast = Toast.makeText(getApplicationContext(), text, Toast.LENGTH_SHORT);
             toast.show();
         }
     }
+
     public class ResponseSender extends BroadcastReceiver {
         @Override
         public void onReceive(Context context, Intent intent) {
             String text = intent.getStringExtra(SocketService.PARAM_OUT_MSG);
-            Toast toast = Toast.makeText(getApplicationContext(),text,Toast.LENGTH_SHORT);
+            Toast toast = Toast.makeText(getApplicationContext(), text, Toast.LENGTH_SHORT);
             toast.show();
         }
+    }
 }
