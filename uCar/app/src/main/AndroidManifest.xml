@@ -18,7 +18,7 @@
 
         <service android:name="com.mapbox.mapboxsdk.telemetry.TelemetryService" />
         <service
-            android:name=".SocketService"
+            android:name=".SocketServiceReciber"
             android:exported="false"></service>
     </application>
 

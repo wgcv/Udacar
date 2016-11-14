@@ -7,14 +7,12 @@ import android.content.IntentFilter;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
-import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.ListView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -34,25 +32,26 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //Reciber Message
-        IntentFilter filter = new IntentFilter(SocketService.ACTION_RECIBER);
+      //Reciber Message
+        IntentFilter filter = new IntentFilter(SocketServiceReciber.ACTION_RECIBER);
         filter.addCategory(Intent.CATEGORY_DEFAULT);
         receiver = new ResponseReceiver();
         registerReceiver(receiver, filter);
 
-        Intent msgIntent = new Intent(this, SocketService.class);
-        startService(msgIntent);
-
+        Intent reciberIntent = new Intent(this, SocketServiceReciber.class);
+        reciberIntent.setAction(SocketServiceReciber.ACTION_RECIBER);
+        startService(reciberIntent);
+/*
         //Sender Message
-        IntentFilter filter2 = new IntentFilter(SocketService.ACTION_SEND);
+        IntentFilter filter2 = new IntentFilter(SocketServiceReciber.ACTION_SEND);
         filter.addCategory(Intent.CATEGORY_DEFAULT);
         sender = new ResponseSender();
         registerReceiver(sender, filter);
 
-        Intent msgIntent2 = new Intent(this, SocketService.class);
-        msgIntent.putExtra(SocketService.PARAM_IN_MSG, "json");
-        startService(msgIntent);
-
+        Intent msgIntent2 = new Intent(this, SocketServiceReciber.class);
+        msgIntent2.putExtra(SocketServiceReciber.PARAM_IN_MSG, "json");
+        startService(msgIntent2);
+*/
         mLvMenu = (ListView) findViewById(R.id.lv_menu);
 
         mMenuItems = getMenuItems();
@@ -127,7 +126,7 @@ public class MainActivity extends AppCompatActivity {
     public class ResponseReceiver extends BroadcastReceiver {
         @Override
         public void onReceive(Context context, Intent intent) {
-            String text = intent.getStringExtra(SocketService.PARAM_OUT_MSG);
+            String text = intent.getStringExtra(SocketServiceReciber.PARAM_OUT_MSG);
             Toast toast = Toast.makeText(getApplicationContext(), text, Toast.LENGTH_SHORT);
             toast.show();
         }
@@ -136,7 +135,7 @@ public class MainActivity extends AppCompatActivity {
     public class ResponseSender extends BroadcastReceiver {
         @Override
         public void onReceive(Context context, Intent intent) {
-            String text = intent.getStringExtra(SocketService.PARAM_OUT_MSG);
+            String text = intent.getStringExtra(SocketServiceReciber.PARAM_OUT_MSG);
             Toast toast = Toast.makeText(getApplicationContext(), text, Toast.LENGTH_SHORT);
             toast.show();
         }
