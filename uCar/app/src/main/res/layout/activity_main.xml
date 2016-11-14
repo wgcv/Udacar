@@ -9,8 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal"
-        android:layout_below="@+id/imageView2">
+        android:orientation="horizontal">
 
         <ListView
             android:id="@+id/lv_menu"
@@ -18,9 +17,10 @@
             android:layout_height="match_parent"
             android:divider="@null"
             android:background="@color/colorPrimaryDark"
-            android:layout_weight="1.2"/>
+            android:layout_weight="1.2"
+            android:choiceMode="singleChoice"/>
 
-        <LinearLayout
+        <RelativeLayout
             android:id="@+id/ll_content"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -28,7 +28,7 @@
             android:layout_weight="3"
             android:elevation="1dp">
 
-        </LinearLayout>
+        </RelativeLayout>
     </LinearLayout>
 
 </RelativeLayout>

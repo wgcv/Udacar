@@ -94,8 +94,8 @@ public class MainActivity extends AppCompatActivity {
                 fragmentTransaction.commit();
                 break;
             case 2:
-                Fragment fragSettings = FragmentSettings.newInstance();
-                fragmentTransaction.replace(R.id.ll_content, fragSettings);
+                Fragment fragmentDoors = FragmentDoors.newInstance();
+                fragmentTransaction.replace(R.id.ll_content, fragmentDoors);
                 fragmentTransaction.commit();
                 break;
             case 1:
