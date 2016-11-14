@@ -9,12 +9,16 @@ def send_client_thread(conn):
     try: 
     	print("Se conecto sender")
     	#infinite loop so that function do not terminate and thread do not end.
-    	while True:
-    		conn.send('datosss\n')
-        	time.sleep(1000)
+        i = 0
+        while(True):
+            conn.send('datosss\n' + str(i))
+            print('datosss\n' + str(i))
+            time.sleep(1000)
+            i += 1
     finally:
     	#came out of loop
-		conn.close
+        print("Termino")
+        conn.close
 def reciber_client_thread(conn):
     #Sending message to connected client
     #infinite loop so that function do not terminate and thread do not end.
@@ -22,7 +26,7 @@ def reciber_client_thread(conn):
     	print("Se conecto reciber")
 
     	while True:
-        	data = connection.recv(1024)
+        	data = conn.recv(1024)
         	print data
         	time.sleep(1000)
     finally:
@@ -33,8 +37,8 @@ sock_reciber = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 sock_sender = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Bind the socket to the port
-server_address_reciber = ('192.168.1.8', 5589)
-server_address_sender = ('192.168.1.8', 5590)
+server_address_reciber = ('192.168.0.2', 5589)
+server_address_sender = ('192.168.0.2', 5590)
 
 print >>sys.stderr, 'starting up on %s port %s' % server_address_reciber
 sock_reciber.bind(server_address_reciber)
@@ -51,8 +55,8 @@ while True:
 	print >>sys.stderr, 'waiting for a connection'
 	connection_sender, client_address_sender = sock_sender.accept()
 	start_new_thread(send_client_thread ,(connection_sender,))
-	connection_reciber, client_address_reciber = sock_reciber.accept()
-	start_new_thread(reciber_client_thread ,(connection_reciber,))
+	#connection_reciber, client_address_reciber = sock_reciber.accept()
+	#start_new_thread(reciber_client_thread ,(connection_reciber,))
 
 
 
