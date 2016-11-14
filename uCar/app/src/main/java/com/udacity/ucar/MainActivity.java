@@ -90,22 +90,22 @@ public class MainActivity extends AppCompatActivity {
         mFragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = mFragmentManager.beginTransaction();
         switch (position) {
-            case 0:
+            case 4:
                 Fragment fragMap = FragmentMap.newInstance();
                 fragmentTransaction.replace(R.id.ll_content, fragMap);
                 fragmentTransaction.commit();
                 break;
-            case 1:
+            case 2:
                 Fragment fragSettings = FragmentSettings.newInstance();
                 fragmentTransaction.replace(R.id.ll_content, fragSettings);
                 fragmentTransaction.commit();
                 break;
-            case 2:
+            case 1:
                 Fragment fragFunction = FragmentFunction.newInstance();
                 fragmentTransaction.replace(R.id.ll_content, fragFunction);
                 fragmentTransaction.commit();
                 break;
-            case 3:
+            case 7:
                 Fragment fragComfort = FragmentComfort.newInstance();
                 fragmentTransaction.replace(R.id.ll_content, fragComfort);
                 fragmentTransaction.commit();
@@ -115,11 +115,14 @@ public class MainActivity extends AppCompatActivity {
 
     private List<String> getMenuItems() {
         List<String> items = new ArrayList<>();
-        items.add("Map");
+        items.add("Udacar");
+        items.add("Basic Function");
+        items.add("Doors");
+        items.add("Stadistics");
+        items.add("Route");
         items.add("Settings");
-        items.add("Basic Functions");
-        items.add("Comfort");
-
+        items.add("Music");
+        items.add("Confort");
         return items;
     }
 

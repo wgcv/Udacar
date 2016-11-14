@@ -11,24 +11,40 @@ import android.widget.ImageView;
 public class Helper {
 
     public static void setImage(Context context, ImageView iv, int position, boolean isSelectedImg){
-        if(isSelectedImg){ //change selected images
-            if(position ==0){//map
-                iv.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.route_icon_selected));
-            }else if(position ==1){//settings
-                iv.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.adjustment_icon_selected));
-            }else if(position == 2){//music
+        if(isSelectedImg){
+            if(position ==0){
+                iv.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.u_wordmark_slate));
+            }else if(position ==1){
                 iv.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.functions_icon_selected));
-            }else{//comfort
+            }else if(position == 2){
+                iv.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.locks_icon_selected));
+            }else if(position == 3){
+                iv.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.statistical_icon_selected));
+            }else if(position == 4){
+                iv.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.route_icon_selected));
+            }else if(position == 5){
+                iv.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.adjustment_icon_selected));
+            }else if(position == 6){
+                iv.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.music_icon_selected));
+            }else if(position == 7){
                 iv.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.luxury_icon_selected));
             }
-        }else{//change un-selected images
-            if(position ==0){//map
-                iv.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.route_icon));
-            }else if(position ==1){//settings
-                iv.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.adjustment_icon));
-            }else if(position == 2){//music
+        }else{
+            if(position ==0){
+                iv.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.u_wordmark_slate));
+            }else if(position ==1){
                 iv.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.functions_icon));
-            }else{//comfort
+            }else if(position == 2){
+                iv.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.locks_icon));
+            }else if(position == 3){
+                iv.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.statistical_icon));
+            }else if(position == 4){
+                iv.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.route_icon));
+            }else if(position == 5){
+                iv.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.adjustment_icon));
+            }else if(position == 6){
+                iv.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.music_icon));
+            }else if(position == 7){
                 iv.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.luxury_icon));
             }
         }

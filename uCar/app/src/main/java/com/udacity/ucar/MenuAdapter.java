@@ -47,18 +47,15 @@ public class MenuAdapter extends BaseAdapter {
         }else{
             mHolder = (MyViewHolder) convertView.getTag();
         }
-        mHolder.mTvMenuName.setText(mItems.get(position));
         Helper.setImage(parent.getContext(), mHolder.mIvMenu, position, false);
 
         return convertView;
     }
 
     class MyViewHolder {
-        TextView mTvMenuName;
         ImageView mIvMenu;
 
         public MyViewHolder(View view){
-            mTvMenuName = (TextView) view.findViewById(R.id.tv_menu_name);
             mIvMenu = (ImageView) view.findViewById(R.id.iv_menu);
         }
     }

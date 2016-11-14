@@ -7,36 +7,28 @@
     tools:context="com.udacity.ucar.MainActivity">
 
     <LinearLayout
-        android:layout_width="@dimen/udacity_logo_width"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="@dimen/side_bar_top_margin"
-        android:background="@color/colorPrimaryDark"
-        android:gravity="center">
+        android:orientation="horizontal"
+        android:layout_below="@+id/imageView2">
 
         <ListView
             android:id="@+id/lv_menu"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_marginBottom="@dimen/menu_list_margin"
-            android:layout_marginTop="@dimen/menu_list_margin"
-            android:divider="@null" />
+            android:divider="@null"
+            android:background="@color/colorPrimaryDark"
+            android:layout_weight="1.2"/>
 
+        <LinearLayout
+            android:id="@+id/ll_content"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="3"
+            android:elevation="1dp">
+
+        </LinearLayout>
     </LinearLayout>
 
-    <ImageView
-        android:id="@+id/iv_udacity_logo"
-        android:layout_width="@dimen/udacity_logo_width"
-        android:layout_height="@dimen/udacity_logo_height"
-        android:scaleType="fitXY"
-        android:src="@drawable/u_wordmark_slate" />
-
-
-    <LinearLayout
-        android:id="@+id/ll_content"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginLeft="@dimen/udacity_logo_width"
-        android:orientation="vertical">
-
-    </LinearLayout>
 </RelativeLayout>
