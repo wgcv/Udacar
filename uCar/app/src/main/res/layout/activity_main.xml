@@ -17,7 +17,7 @@
             android:layout_height="match_parent"
             android:divider="@null"
             android:background="@color/colorPrimaryDark"
-            android:layout_weight="1.2"
+            android:layout_weight="0.5"
             android:choiceMode="singleChoice"/>
 
         <RelativeLayout
