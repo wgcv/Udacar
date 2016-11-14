@@ -24,14 +24,11 @@ public class MainActivity extends AppCompatActivity {
     private ResponseReceiver receiver;
     private ResponseSender sender;
     ListView mLvMenu;
-
     List<String> mMenuItems;
     MenuAdapter mMenuAdapter;
     FragmentManager mFragmentManager;
     ImageView mSelctedMenuImg;
     int mSelectedMenuImgPos;
-    private ResponseReceiver receiver;
-    private ResponseSender sender;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
