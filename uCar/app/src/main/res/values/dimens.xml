@@ -6,7 +6,7 @@
     <dimen name="udacity_logo_height">150dp</dimen>
     <dimen name="side_bar_top_margin">110dp</dimen>
     <dimen name="search_bar_margin">16dp</dimen>
-    <dimen name="menu_list_margin">50dp</dimen>
+    <dimen name="menu_list_margin">30dp</dimen>
     <dimen name="margin_10dp">10dp</dimen>
     <dimen name="dimen_rectangle">450dp</dimen>
 </resources>
