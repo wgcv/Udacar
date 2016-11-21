@@ -55,7 +55,7 @@
                 android:layout_marginRight="@dimen/activity_vertical_margin"
                 android:layout_marginLeft="@dimen/activity_vertical_margin"/>
 
-            <ImageButton
+            <ImageView
                 app:srcCompat="@drawable/plus"
                 android:id="@+id/imgButton_plus"
                 android:background="@android:color/white"
@@ -65,7 +65,7 @@
                 android:layout_alignRight="@+id/seekBar"
                 android:layout_alignEnd="@+id/seekBar"/>
 
-            <ImageButton
+            <ImageView
                 android:layout_width="75dp"
                 android:layout_height="75dp"
                 app:srcCompat="@drawable/minus"
@@ -89,7 +89,7 @@
             android:layout_marginBottom="@dimen/menu_list_margin"
             android:gravity="center">
 
-            <ImageButton
+            <ImageView
                 android:layout_height="300dp"
                 app:srcCompat="@drawable/sun"
                 android:id="@+id/imgButton_sun"
@@ -98,7 +98,7 @@
                 android:layout_width="0dp"
                 android:layout_marginLeft="@dimen/menu_list_margin"/>
 
-            <ImageButton
+            <ImageView
                 android:layout_height="300dp"
                 app:srcCompat="@drawable/moon_selected"
                 android:id="@+id/imgButton_moon"
@@ -120,7 +120,7 @@
             android:layout_marginBottom="@dimen/menu_list_margin"
             android:gravity="center">
 
-            <ImageButton
+            <ImageView
                 android:layout_width="0dp"
                 android:layout_height="300dp"
                 app:srcCompat="@drawable/stop"
@@ -129,7 +129,7 @@
                 android:layout_marginLeft="@dimen/menu_list_margin"
                 android:background="@android:color/white"/>
 
-            <ImageButton
+            <ImageView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 app:srcCompat="@drawable/rec_selected"

@@ -80,7 +80,7 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="400dp"
+            android:layout_height="wrap_content"
             android:id="@+id/linear_layout2"
             android:layout_below="@+id/relative_layout1"
             android:background="@drawable/border_layout"
@@ -90,22 +90,26 @@
             android:gravity="center">
 
             <ImageButton
-                android:layout_height="300dp"
+                android:layout_height="match_parent"
                 app:srcCompat="@drawable/sun"
                 android:id="@+id/imgButton_sun"
                 android:layout_weight="1"
                 android:background="@android:color/white"
                 android:layout_width="0dp"
-                android:layout_marginLeft="@dimen/menu_list_margin"/>
+                android:layout_marginLeft="@dimen/menu_list_margin"
+                android:layout_marginBottom="@dimen/margin_10dp"
+                android:layout_marginTop="@dimen/margin_10dp"/>
 
             <ImageButton
-                android:layout_height="300dp"
+                android:layout_height="wrap_content"
                 app:srcCompat="@drawable/moon_selected"
                 android:id="@+id/imgButton_moon"
                 android:layout_weight="1"
                 android:background="@android:color/white"
                 android:layout_width="0dp"
-                android:layout_marginRight="@dimen/menu_list_margin"/>
+                android:layout_marginRight="@dimen/menu_list_margin"
+                android:layout_marginBottom="@dimen/margin_10dp"
+                android:layout_marginTop="@dimen/margin_10dp"/>
         </LinearLayout>
 
         <LinearLayout
@@ -122,7 +126,7 @@
 
             <ImageButton
                 android:layout_width="0dp"
-                android:layout_height="300dp"
+                android:layout_height="match_parent"
                 app:srcCompat="@drawable/stop"
                 android:id="@+id/imgButton_pause"
                 android:layout_weight="1"
