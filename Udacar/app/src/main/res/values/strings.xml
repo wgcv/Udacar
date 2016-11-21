@@ -1,8 +1,10 @@
 <resources>
-    <string name="app_name">Udacar</string>
-    <string name="action_settings">Settings</string>
-    <string name="hourTest">1:52AM \n 10/28/2016</string>
+    <string name="app_name">uDacar</string>
+
+    <string name="mapbox_token">pk.eyJ1IjoiaWFta2hhbiIsImEiOiJjaXVncWdraHIwMHAyMnRtenlieTlsNGdrIn0.dgp2PUP5iJ-tGY-SOCvfag</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    
+    <string name="adjustments">Adjustments</string>
 </resources>
