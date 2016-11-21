@@ -2,18 +2,11 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:app="http://schemas.android.com/apk/res-auto"
             xmlns:tools="http://schemas.android.com/tools"
-<<<<<<< Updated upstream:uCar/app/src/main/res/layout-port/fragment_adjustments.xml
             android:orientation="vertical"
-            tools:context="com.udacity.ucar.FragmentAdjustments"
+            tools:context="com.udacity.uDacar.FragmentAdjustments"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@android:color/white">
-=======
-                android:orientation="vertical"
-                tools:context="com.udacity.uDacar.FragmentAdjustments"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
->>>>>>> Stashed changes:uDacar/app/src/main/res/layout-port/fragment_adjustments.xml
 
     <RelativeLayout
         android:layout_width="match_parent"

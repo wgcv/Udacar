@@ -4,14 +4,9 @@
             xmlns:app="http://schemas.android.com/apk/res-auto"
             android:orientation="vertical"
             android:layout_width="match_parent"
-<<<<<<< Updated upstream:uCar/app/src/main/res/layout-land/fragment_adjustments.xml
-            tools:context="com.udacity.ucar.FragmentAdjustments"
+            tools:context="com.udacity.uDacar.FragmentAdjustments"
             android:layout_height="match_parent"
             android:background="@android:color/white">
-=======
-            tools:context="com.udacity.uDacar.FragmentAdjustments"
-            android:layout_height="match_parent">
->>>>>>> Stashed changes:uDacar/app/src/main/res/layout-land/fragment_adjustments.xml
 
     <RelativeLayout
         android:layout_width="match_parent"
