@@ -1,31 +1,17 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:orientation="vertical"
+            tools:context="com.udacity.ucar.FragmentDoors"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:orientation="vertical"
-        tools:context="com.udacity.ucar.FragmentSettings"
-        tools:ignore="ScrollViewSize">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Doors"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="@android:color/black"
-            android:textSize="50sp"
-            android:textStyle="bold"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:gravity="center"
-            android:layout_above="@+id/linearlayout1" />
+        android:background="@android:color/white">
 
         <TextView
             android:layout_width="wrap_content"
@@ -36,13 +22,13 @@
             android:textColor="@android:color/black"
             android:textSize="50sp"
             android:textStyle="bold"
-            android:layout_above="@+id/linearlayout2"
             android:id="@+id/textview_windows"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:gravity="center" />
+            android:gravity="center"
+            android:layout_below="@+id/linearlayout1"/>
 
         <LinearLayout
             android:id="@+id/linearlayout2"
@@ -50,7 +36,8 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:orientation="horizontal"
-            android:layout_above="@+id/linearlayout3">
+            android:layout_below="@+id/textview_windows"
+            android:background="@android:color/white">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -117,7 +104,8 @@
             android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginBottom="0dp">
+            android:layout_below="@+id/linearlayout2"
+            android:background="@android:color/white">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -183,10 +171,10 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:orientation="horizontal"
-            android:layout_below="@+id/textView"
+            android:layout_below="@+id/textview_doors"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_above="@+id/textview_windows">
+            android:background="@android:color/white">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -248,5 +236,20 @@
             </LinearLayout>
         </LinearLayout>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Doors"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/black"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textview_doors"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:gravity="center"/>
+
     </RelativeLayout>
-</RelativeLayout>
+</ScrollView>

@@ -4,11 +4,13 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:orientation="vertical"
-            tools:context="com.udacity.ucar.FragmentComfort">
+            tools:context="com.udacity.ucar.FragmentComfort"
+            android:background="@android:color/white">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:background="@android:color/white">
 
         <ImageView
             android:layout_width="match_parent"
@@ -187,7 +189,8 @@
                     android:orientation="horizontal"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:layout_marginBottom="10dp">
+                    android:layout_marginBottom="10dp"
+                    android:background="@android:color/white">
 
                     <ImageView
                         android:id="@+id/iv_seat_pilot"
@@ -201,7 +204,8 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:orientation="vertical"
-                        android:layout_weight="1">
+                        android:layout_weight="1"
+                        android:background="@android:color/white">
 
                         <ImageView
                             android:id="@+id/iv_btn_left_pilot"
@@ -233,7 +237,8 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:orientation="vertical"
-                        android:layout_weight="1">
+                        android:layout_weight="1"
+                        android:background="@android:color/white">
 
                         <ImageView
                             android:id="@+id/iv_btn_left_copilot"
@@ -255,4 +260,5 @@
             </LinearLayout>
         </LinearLayout>
     </RelativeLayout>
+
 </ScrollView>

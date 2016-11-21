@@ -4,11 +4,13 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:orientation="vertical"
-            tools:context="com.udacity.ucar.FragmentComfort">
+            tools:context="com.udacity.ucar.FragmentComfort"
+            android:background="@android:color/white">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:background="@android:color/white">
 
         <ImageView
             android:layout_width="match_parent"
@@ -32,10 +34,10 @@
                 android:background="@drawable/borderline"
                 android:gravity="center"
                 android:orientation="vertical"
-                android:layout_marginRight="@dimen/side_bar_top_margin"
-                android:layout_marginLeft="@dimen/side_bar_top_margin"
                 android:layout_width="wrap_content"
-                android:layout_height="550dp">
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/side_bar_top_margin"
+                android:layout_marginRight="@dimen/side_bar_top_margin">
 
                 <TextView
                     android:id="@+id/tv_temp"

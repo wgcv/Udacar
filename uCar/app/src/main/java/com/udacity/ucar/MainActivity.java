@@ -87,9 +87,9 @@ public class MainActivity extends AppCompatActivity {
         mFragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = mFragmentManager.beginTransaction();
         switch (position) {
-            case 4:
-                Fragment fragMap = FragmentMap.newInstance();
-                fragmentTransaction.replace(R.id.ll_content, fragMap);
+            case 1:
+                Fragment fragFunction = FragmentFunction.newInstance();
+                fragmentTransaction.replace(R.id.ll_content, fragFunction);
                 fragmentTransaction.commit();
                 break;
             case 2:
@@ -97,10 +97,18 @@ public class MainActivity extends AppCompatActivity {
                 fragmentTransaction.replace(R.id.ll_content, fragmentDoors);
                 fragmentTransaction.commit();
                 break;
-            case 1:
-                Fragment fragFunction = FragmentFunction.newInstance();
-                fragmentTransaction.replace(R.id.ll_content, fragFunction);
+            case 4:
+                Fragment fragMap = FragmentMap.newInstance();
+                fragmentTransaction.replace(R.id.ll_content, fragMap);
                 fragmentTransaction.commit();
+                break;
+            case 5:
+                Fragment fragAdjustments = FragmentAdjustments.newInstance();
+                fragmentTransaction.replace(R.id.ll_content, fragAdjustments);
+                fragmentTransaction.commit();
+                break;
+            case 6:
+                //music
                 break;
             case 7:
                 Fragment fragComfort = FragmentComfort.newInstance();
