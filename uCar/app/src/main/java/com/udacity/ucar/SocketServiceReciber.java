@@ -24,7 +24,7 @@ public class SocketServiceReciber extends IntentService {
     public static final String PARAM_OUT_MSG = "";
     private static Socket socket;
     private String mensaje = "";
-    private static final String SERVER_IP = "192.168.0.2";
+    private static final String SERVER_IP = "192.168.1.8";
     private static final int SERVERPORT_reciber = 5590;
     private Boolean firstTime = Boolean.TRUE;
 

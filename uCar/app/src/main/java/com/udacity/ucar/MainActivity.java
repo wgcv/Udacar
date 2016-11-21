@@ -4,6 +4,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.os.SystemClock;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -37,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
-  /*    //Reciber Message
+      //Reciber Message
         IntentFilter filter = new IntentFilter(SocketServiceReciber.ACTION_RECIBER);
         filter.addCategory(Intent.CATEGORY_DEFAULT);
         receiver = new ResponseReceiver();
@@ -57,6 +58,23 @@ public class MainActivity extends AppCompatActivity {
         msgIntent2.putExtra(SocketServiceReciber.PARAM_IN_MSG, "json");
         startService(msgIntent2);
 */
+        //Sender Message
+        Intent i = new Intent(MainActivity.this, SocketServiceSender.class);
+        MainActivity.this.startService(i);
+        new Thread(new Runnable() {
+            public void run() {
+                //Aquí ejecutamos nuestras tareas costosas
+
+                while(true){
+
+                    SystemClock.sleep(1500);
+
+                    //sender
+                    SocketServiceSender.send("hola");
+
+                }
+            }
+        }).start();
         mLvMenu = (ListView) findViewById(R.id.lv_menu);
 
         mMenuItems = getMenuItems();
