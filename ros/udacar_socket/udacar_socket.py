@@ -25,8 +25,8 @@ def reciber_client_thread(conn):
     	print("Se conecto reciber")
 
     	while True:
-        	data = conn.recv(1024)
-        	print data
+        	data = conn.recv(4096)
+        	print data.strip()
         	time.sleep(0.5)
     finally:
 		#came out of loop
@@ -36,8 +36,8 @@ sock_reciber = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 sock_sender = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Bind the socket to the port
-server_address_reciber = ('192.168.0.2', 5589)
-server_address_sender = ('192.168.0.2', 5590)
+server_address_reciber = ('192.168.1.8', 5589)
+server_address_sender = ('192.168.1.8', 5590)
 
 print >>sys.stderr, 'starting up on %s port %s' % server_address_reciber
 sock_reciber.bind(server_address_reciber)
@@ -54,8 +54,8 @@ while True:
 	print >>sys.stderr, 'waiting for a connection'
 	connection_sender, client_address_sender = sock_sender.accept()
 	start_new_thread(send_client_thread ,(connection_sender,))
-	#connection_reciber, client_address_reciber = sock_reciber.accept()
-	#start_new_thread(reciber_client_thread ,(connection_reciber,))
+	connection_reciber, client_address_reciber = sock_reciber.accept()
+	start_new_thread(reciber_client_thread ,(connection_reciber,))
 sock_sender.close()
 
 
