@@ -29,7 +29,7 @@
 
         <LinearLayout
             android:layout_marginBottom="20dp"
-            android:background="@android:color/white"
+            android:background="@drawable/border_layout"
             android:layout_alignWithParentIfMissing="false"
             android:id="@+id/linearlayout1"
             android:layout_below="@+id/textview_functions"
@@ -37,7 +37,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/activity_vertical_margin"
             android:layout_marginLeft="@android:dimen/notification_large_icon_width"
-            android:layout_marginRight="@android:dimen/notification_large_icon_width">
+            android:layout_marginRight="@android:dimen/notification_large_icon_width"
+            android:gravity="center">
 
             <ImageView
                 android:layout_width="0dp"
@@ -122,7 +123,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@android:color/white"
-                android:visibility="invisible">
+                android:visibility="gone">
 
                 <ImageView
                     android:layout_width="wrap_content"
