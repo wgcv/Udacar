@@ -61,20 +61,9 @@ public class MainActivity extends AppCompatActivity {
         //Sender Message
         Intent i = new Intent(MainActivity.this, SocketServiceSender.class);
         MainActivity.this.startService(i);
-        new Thread(new Runnable() {
-            public void run() {
-                //Aquí ejecutamos nuestras tareas costosas
-
-                while(true){
-
-                    SystemClock.sleep(1500);
-
-                    //sender
-                    SocketServiceSender.send("hola");
-
-                }
-            }
-        }).start();
+        // How to send sender
+        //SocketServiceSender.send("hola");
+        
         mLvMenu = (ListView) findViewById(R.id.lv_menu);
 
         mMenuItems = getMenuItems();
