@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_clear_black_24dp.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\exploded-aar\\com.mapbox.mapboxsdk\\mapbox-android-services\\1.3.1\\res\\drawable-ldpi-v4\\ic_clear_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_directions_bike_black_24dp.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\exploded-aar\\com.mapbox.mapboxsdk\\mapbox-android-services\\1.3.1\\res\\drawable-ldpi-v4\\ic_directions_bike_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_info_outline_24dp_selected.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\exploded-aar\\com.mapbox.mapboxsdk\\mapbox-android-sdk\\4.1.1\\res\\drawable-ldpi-v4\\ic_info_outline_24dp_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_directions_car_black_24dp.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\exploded-aar\\com.mapbox.mapboxsdk\\mapbox-android-services\\1.3.1\\res\\drawable-ldpi-v4\\ic_directions_car_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_info_outline_24dp.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\exploded-aar\\com.mapbox.mapboxsdk\\mapbox-android-sdk\\4.1.1\\res\\drawable-ldpi-v4\\ic_info_outline_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_navigation_black_24dp.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\exploded-aar\\com.mapbox.mapboxsdk\\mapbox-android-services\\1.3.1\\res\\drawable-ldpi-v4\\ic_navigation_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_directions_walk_black_24dp.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\exploded-aar\\com.mapbox.mapboxsdk\\mapbox-android-services\\1.3.1\\res\\drawable-ldpi-v4\\ic_directions_walk_black_24dp.png"
+    }
+]

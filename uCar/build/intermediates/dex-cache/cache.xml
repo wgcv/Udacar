@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\exploded-aar\com.mapbox.mapboxsdk\mapbox-android-sdk\4.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e0c46b307f528ecb24419c06a9f147ac1689d306">
+        <dex dex="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mapbox.mapboxsdk-mapbox-android-sdk-4.1.1_7a21c5bf112e592bf9ebfe9b099f01f0c00876a2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_989a505d43d8cea18c8fb814280d4e994a0bc02c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Saul\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.1\19047bdb6a4fc00a44124f64ca98e88fc204e7e3\okhttp-3.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="19047bdb6a4fc00a44124f64ca98e88fc204e7e3">
+        <dex dex="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.1_4de33315bb0adbb0005d529099e4093e2af41cc5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\exploded-aar\com.mapbox.mapboxsdk\mapbox-android-services\1.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8c676668c0363bfc80e4a4a2086fae420777efaa">
+        <dex dex="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mapbox.mapboxsdk-mapbox-android-services-1.3.1_02b6d11ebf11c155f9dd3ae50e041fe1db1e8476\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_240436c5934aab18c2c758a5f4d43e6a015beb88\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_4956062aa5d646b8b7965bbbe2376192b708f52c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_2b3578356fb3408d5a17ea2c6a02a8ec51216e2b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_532c2a15d4290db94e822f7f7b31c59391f7c5d9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_b6a32dc8acb6d342f870de0f8f9e7729618704e1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_1b4c112aa64c78db65e0a4775098e4eaf32d7b2c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Saul\.gradle\caches\modules-2\files-2.1\com.mapbox.mapboxsdk\mapbox-java-services\1.3.1\6bda5f2cf57af827c1a9703a77ed9e451e6d6d25\mapbox-java-services-1.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6bda5f2cf57af827c1a9703a77ed9e451e6d6d25">
+        <dex dex="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\mapbox-java-services-1.3.1_8ca3aec8af1424556ef8b2a2dcb20236826c0596\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_7b0b7993cf0a0e13b1e0373010e2c38a036c1e7b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Saul\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.3.1\99ce730034c6f5aaed710d1e0e9df95e8714ed5f\logging-interceptor-3.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="99ce730034c6f5aaed710d1e0e9df95e8714ed5f">
+        <dex dex="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\logging-interceptor-3.3.1_c98d5373115e2b35c0a4e47b7b401c8edaa89ba2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Saul\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_84ceaef3bf98224d5c18ffcadfb3f65c0cc8e9d3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Saul\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.8.0_87ee4fa35f6b11b23b8b5e77ef7ba912a16b370b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_555c453bee965c42e4cd131e7ba4fb89944dc8d6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Saul\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_4e60736868199a13d72a94f8b9aa6a882ac69d15\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_d6bf7e3148ebbbc6cad622b045986cc243c05fe9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\google\guava\guava\18.0\guava-18.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\guava-18.0_23ae9d619c9ad952ac11ce7bff78df802e3e98c2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Saul\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.1.0_341388d5d62606c4f4b96920182e906bbdf8ea23\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_4e48fb44b24bdc3e3336dedb2143b88bdf578632\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_129aa4fde90afc6c91994068c7be927a49452b41\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_3926627a4ddd2658cd04d0525dca2310bb3a85d0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\exploded-aar\com.mapzen.android\lost\1.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="59ed82eec8faf4e2b742531bbe49c30ad56649c3">
+        <dex dex="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mapzen.android-lost-1.1.0_688da57c817e8d66668034349f15f72d3acf00c6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_199edf2d28190244972d1935da42a49ee2afd70c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8631ecce3a4c8e9c2efa9d9527bdb7f81f34fd54">
+        <dex dex="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_dbf664fc3d9137bd44512a954964912a79d56eac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_f176ce3a4d34075981bcd2cfd5596e0c482fb29c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_8471d8a4b21ce910265faa9ccade346408c4806d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Saul\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_b175f7b1e709bcc40ddb5cc82f4b8db096eaa937\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43868cc28a8145d8bf67e1206aab60657902835c">
+        <dex dex="C:\Users\Saul\AndroidStudioProjects\Udacar\uCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_ef40ff281c067c79e4408ae56b9a32baeb71c9f1\classes.dex" />
+    </item>
+
+</items>

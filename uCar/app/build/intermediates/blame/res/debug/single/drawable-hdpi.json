@@ -1,0 +1,446 @@
+[
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\windows_down_left.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\windows_down_left.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\route_icon.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\route_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\battery_25.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\battery_25.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mi.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\mi.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\window_top_left_down.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\window_top_left_down.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\on_route.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\on_route.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\gps.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\gps.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\neutral.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\neutral.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\manual_selected.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\manual_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\gpsselected.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\gpsselected.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lights_1_on.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\lights_1_on.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\rectangle_select.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\rectangle_select.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\option_2.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\option_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\windows_down_right.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\windows_down_right.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\windows.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\windows.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\downbutton.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\downbutton.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\parking.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\parking.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\time.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\time.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\route.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\route.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\energy.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\energy.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\energysave.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\energysave.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lights_1.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\lights_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\u_wordmark_slate.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\u_wordmark_slate.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\door_lock.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\door_lock.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\km.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\km.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pump_door.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\pump_door.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\window_top_right_up.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\window_top_right_up.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lights_2.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\lights_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\energysafe_selected.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\energysafe_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\km_select.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\km_select.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\manual.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\manual.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\adjustment_icon_selected.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\adjustment_icon_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\left_button.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\left_button.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\car.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\car.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\rec_selected.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\rec_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\window_down_right_up.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\window_down_right_up.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\locks_icon.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\locks_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\statistical_icon.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\statistical_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\route_icon_selected.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\route_icon_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\error_network.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\error_network.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\window_top_right_down.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\window_top_right_down.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\sun.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\sun.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lock_close.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\lock_close.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\alert.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\alert.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\turn_off.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\turn_off.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mi_select.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\mi_select.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\shape.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\shape.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\option_1.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\option_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\car_marker_icon.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\car_marker_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\basic_functions.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\basic_functions.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\car_icon.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\car_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\seat_pilot.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\seat_pilot.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bubble.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\bubble.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\functions_icon_selected.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\functions_icon_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\energy_selected.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\energy_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\rectangle_2.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\rectangle_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\distance.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\distance.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\minus.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\minus.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\window_down_left_down.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\window_down_left_down.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\reverse.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\reverse.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\battery_50.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\battery_50.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\drive.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\drive.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\upbutton.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\upbutton.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\luxury_icon.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\luxury_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\sos.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\sos.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\moon_selected.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\moon_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\window_top_right.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\window_top_right.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\seat_copilot.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\seat_copilot.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lights_3_on.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\lights_3_on.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\window_down_right_down.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\window_down_right_down.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\statistical_icon_selected.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\statistical_icon_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\music_icon.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\music_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\line.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\line.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\plus.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\plus.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\saveenergy.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\saveenergy.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\locks_icon_selected.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\locks_icon_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\music_icon_selected.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\music_icon_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\sun_selected.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\sun_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\fav.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\fav.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\luxury_icon_selected.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\luxury_icon_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\functions_icon.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\functions_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\stop_down.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\stop_down.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\group.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\group.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\adjustment_icon.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\adjustment_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\right_button.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\right_button.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\group_4.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\group_4.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\battery_75.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\battery_75.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lock_open.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\lock_open.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\falsh.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\falsh.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\borderline.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\borderline.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pause.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\pause.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lights_3.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\lights_3.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\adjustments.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\adjustments.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\window_top_left_up.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\window_top_left_up.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\battery_15.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\battery_15.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\window_down_left_up.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\window_down_left_up.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\room_lights.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\room_lights.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lights_2_on.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\lights_2_on.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\car_little.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\car_little.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\stop.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\stop.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\battery_100.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\battery_100.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pause_selected.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\pause_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\record.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\record.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\moon.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\moon.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\seats.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\seats.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lock.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\lock.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\parking_down.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\parking_down.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\comfort.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\comfort.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\flash_select.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\flash_select.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\turn_off_down.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\turn_off_down.png"
+    },
+    {
+        "merged": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\window_top_left.png",
+        "source": "C:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\src\\main\\res\\drawable-hdpi\\window_top_left.png"
+    }
+]

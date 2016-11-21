@@ -1,0 +1,7 @@
+#Mon Nov 21 00:40:35 COT 2016
+base.0=C\:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_ef40ff281c067c79e4408ae56b9a32baeb71c9f1
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_dbf664fc3d9137bd44512a954964912a79d56eac\\classes.dex
+base.1=C\:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_dbf664fc3d9137bd44512a954964912a79d56eac
+file.0=C\:\\Users\\Saul\\AndroidStudioProjects\\Udacar\\uCar\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_ef40ff281c067c79e4408ae56b9a32baeb71c9f1\\classes.dex
