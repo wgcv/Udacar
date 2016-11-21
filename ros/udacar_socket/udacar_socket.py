@@ -13,7 +13,6 @@ def send_client_thread(conn):
         while(True):
             conn.send('\ndata'+ str(i) +'\n' )
             i += 1
-            print(i)
             time.sleep(0.5)
     finally:
     	#came out of loop
@@ -28,7 +27,7 @@ def reciber_client_thread(conn):
     	while True:
         	data = conn.recv(1024)
         	print data
-        	time.sleep(1)
+        	time.sleep(0.5)
     finally:
 		#came out of loop
     	conn.close()
