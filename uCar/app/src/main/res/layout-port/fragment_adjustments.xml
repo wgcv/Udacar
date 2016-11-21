@@ -38,7 +38,8 @@
                 app:srcCompat="@drawable/bubble"
                 android:id="@+id/imageView2"
                 android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true"/>
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/activity_vertical_margin"/>
 
             <SeekBar
                 android:layout_width="wrap_content"
