@@ -14,37 +14,25 @@ public class Helper {
         if(isSelectedImg){
             if(position ==0){
                 iv.setImageDrawable(ContextCompat.getDrawable(context, com.udacity.uDacar.R.drawable.u_wordmark_slate));
-            }else if(position ==1){
+            }else if(position ==2){
                 iv.setImageDrawable(ContextCompat.getDrawable(context, com.udacity.uDacar.R.drawable.functions_icon_selected));
-            }else if(position == 2){
-                iv.setImageDrawable(ContextCompat.getDrawable(context, com.udacity.uDacar.R.drawable.locks_icon_selected));
             }else if(position == 3){
-                iv.setImageDrawable(ContextCompat.getDrawable(context, com.udacity.uDacar.R.drawable.statistical_icon_selected));
-            }else if(position == 4){
+                iv.setImageDrawable(ContextCompat.getDrawable(context, com.udacity.uDacar.R.drawable.locks_icon_selected));
+            }else if(position == 1){
                 iv.setImageDrawable(ContextCompat.getDrawable(context, com.udacity.uDacar.R.drawable.route_icon_selected));
-            }else if(position == 5){
-                iv.setImageDrawable(ContextCompat.getDrawable(context, com.udacity.uDacar.R.drawable.adjustment_icon_selected));
-            }else if(position == 6){
-                iv.setImageDrawable(ContextCompat.getDrawable(context, com.udacity.uDacar.R.drawable.music_icon_selected));
-            }else if(position == 7){
+            }else if(position == 4){
                 iv.setImageDrawable(ContextCompat.getDrawable(context, com.udacity.uDacar.R.drawable.luxury_icon_selected));
             }
         }else{
             if(position ==0){
                 iv.setImageDrawable(ContextCompat.getDrawable(context, com.udacity.uDacar.R.drawable.u_wordmark_slate));
-            }else if(position ==1){
+            }else if(position ==2){
                 iv.setImageDrawable(ContextCompat.getDrawable(context, com.udacity.uDacar.R.drawable.functions_icon));
-            }else if(position == 2){
-                iv.setImageDrawable(ContextCompat.getDrawable(context, com.udacity.uDacar.R.drawable.locks_icon));
             }else if(position == 3){
-                iv.setImageDrawable(ContextCompat.getDrawable(context, com.udacity.uDacar.R.drawable.statistical_icon));
-            }else if(position == 4){
+                iv.setImageDrawable(ContextCompat.getDrawable(context, com.udacity.uDacar.R.drawable.locks_icon));
+            }else if(position == 1){
                 iv.setImageDrawable(ContextCompat.getDrawable(context, com.udacity.uDacar.R.drawable.route_icon));
-            }else if(position == 5){
-                iv.setImageDrawable(ContextCompat.getDrawable(context, com.udacity.uDacar.R.drawable.adjustment_icon));
-            }else if(position == 6){
-                iv.setImageDrawable(ContextCompat.getDrawable(context, com.udacity.uDacar.R.drawable.music_icon));
-            }else if(position == 7){
+            }else if(position == 4){
                 iv.setImageDrawable(ContextCompat.getDrawable(context, com.udacity.uDacar.R.drawable.luxury_icon));
             }
         }

@@ -4,6 +4,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.pm.PackageManager;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -21,6 +22,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
+    private static final int PERMISSIONS_REQUEST_LOCATION_AUDIO = 3;
+
     private ResponseReceiver receiver;
     private ResponseSender sender;
     ListView mLvMenu;
@@ -29,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
     FragmentManager mFragmentManager;
     ImageView mSelctedMenuImg;
     int mSelectedMenuImgPos;
+    Fragment fragMap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -73,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
         mFragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = mFragmentManager.beginTransaction();
 
-        Fragment fragMap = FragmentMap.newInstance();
+        fragMap = FragmentMapboxMap.newInstance();
         fragmentTransaction.add(com.udacity.uDacar.R.id.ll_content, fragMap);
         fragmentTransaction.commit();
 
@@ -98,30 +102,25 @@ public class MainActivity extends AppCompatActivity {
         mFragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = mFragmentManager.beginTransaction();
         switch (position) {
-            case 1:
+            case 2:
                 Fragment fragFunction = FragmentFunction.newInstance();
                 fragmentTransaction.replace(com.udacity.uDacar.R.id.ll_content, fragFunction);
                 fragmentTransaction.commit();
                 break;
-            case 2:
+            case 3:
                 Fragment fragmentDoors = FragmentDoors.newInstance();
                 fragmentTransaction.replace(com.udacity.uDacar.R.id.ll_content, fragmentDoors);
                 fragmentTransaction.commit();
                 break;
-            case 4:
-                Fragment fragMap = FragmentMap.newInstance();
+            case 1:
+                if(fragMap == null){
+                   fragMap = FragmentMapboxMap.newInstance();
+                }
                 fragmentTransaction.replace(com.udacity.uDacar.R.id.ll_content, fragMap);
                 fragmentTransaction.commit();
                 break;
-            case 5:
-                Fragment fragAdjustments = FragmentAdjustments.newInstance();
-                fragmentTransaction.replace(com.udacity.uDacar.R.id.ll_content, fragAdjustments);
-                fragmentTransaction.commit();
-                break;
-            case 6:
-                //music
-                break;
-            case 7:
+
+            case 4:
                 Fragment fragComfort = FragmentComfort.newInstance();
                 fragmentTransaction.replace(com.udacity.uDacar.R.id.ll_content, fragComfort);
                 fragmentTransaction.commit();
@@ -129,16 +128,27 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    @Override
+    public void onRequestPermissionsResult(int requestCode,
+                                           String[] permissions, int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+
+        if (requestCode == PERMISSIONS_REQUEST_LOCATION_AUDIO) {
+            if (grantResults.length >= 2 && grantResults[0] == PackageManager.PERMISSION_GRANTED &&
+                    grantResults[1] == PackageManager.PERMISSION_GRANTED) {
+                ((FragmentMapboxMap)fragMap).initializeView();
+            } else {
+                finish();
+            }
+        }
+    }
     private List<String> getMenuItems() {
         List<String> items = new ArrayList<>();
         items.add("Udacar");
+        items.add("Route");
         items.add("Basic Function");
         items.add("Doors");
-        items.add("Stadistics");
-        items.add("Route");
-        items.add("Settings");
-        items.add("Music");
-        items.add("Confort");
+        items.add("Comfort");
         return items;
     }
 

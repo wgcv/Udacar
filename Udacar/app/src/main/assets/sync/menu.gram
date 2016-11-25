@@ -1,0 +1,6 @@
+#JSGF V1.0;
+
+grammar menu;
+
+public <item> =
+directions /1e-1/
