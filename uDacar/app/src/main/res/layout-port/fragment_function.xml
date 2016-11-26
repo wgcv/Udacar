@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            tools:context="com.udacity.uDacar.FragmentFunction"
+            android:layout_height="match_parent"
+            android:background="@android:color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@android:color/white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Baisc Functions"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/my_gray"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            android:id="@+id/textview_functions"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/border_layout"
+            android:layout_alignWithParentIfMissing="false"
+            android:id="@+id/linearlayout1"
+            android:layout_below="@+id/textview_functions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@android:dimen/notification_large_icon_width"
+            android:layout_marginRight="@android:dimen/notification_large_icon_width"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/option_2"
+                android:layout_weight="1"
+                android:id="@+id/img_functions_automatic"
+                android:layout_height="350dp"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/manual_selected"
+                android:layout_weight="1"
+                android:id="@+id/img_functions_manual"
+                android:layout_height="350dp"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:id="@+id/layout_functions_"
+            android:layout_below="@+id/linearlayout1"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:background="@android:color/white">
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal"
+                android:id="@+id/layout_functions_up"
+                android:layout_width="match_parent"
+                android:background="@android:color/white">
+
+                <ImageView
+                    android:layout_height="200dp"
+                    android:layout_marginRight="50dp"
+                    android:src="@drawable/parking"
+                    android:id="@+id/img_functions_parking"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"/>
+
+                <ImageView
+                    android:layout_height="200dp"
+                    android:src="@drawable/drive"
+                    android:id="@+id/img_functions_drive"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:id="@+id/layout_functions_down"
+                android:layout_below="@+id/layout_functions_up"
+                android:background="@android:color/white">
+
+                <ImageView
+                    android:layout_height="200dp"
+                    android:layout_marginRight="50dp"
+                    android:src="@drawable/neutral"
+                    android:id="@+id/img_functions_neutral"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"/>
+
+                <ImageView
+                    android:layout_height="200dp"
+                    android:src="@drawable/reverse"
+                    android:id="@+id/img_functions_reverse"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/layou_functions_warning"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/alert"
+                    android:id="@+id/imageView4"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,1 @@
+int8 temp #Sent the temperatur of the air conditioner

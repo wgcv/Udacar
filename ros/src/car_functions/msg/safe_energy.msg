@@ -1,0 +1,1 @@
+bool safe #True if you want to save energy False for veolcity
